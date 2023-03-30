@@ -2,6 +2,9 @@
 body {
   font: normal normal 13px/16px "Open Sans", sans-serif;
   background: #dfdfdf;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .container {
@@ -43,9 +46,6 @@ ol {
 ol li {
   padding: 5px;
   color: #000;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
 }
 
 ol li:nth-child(even) {
